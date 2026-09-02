@@ -2,7 +2,7 @@
 
 Implementación en Java puro del algoritmo de consenso [Raft](https://raft.github.io/) (Ongaro & Ousterhout, 2014), desarrollada como primera fase de un Trabajo de Fin de Grado sobre la integración de Raft en [Hyperledger Besu](https://github.com/hyperledger/besu).
 
-Este motor se verificó como librería independiente — con procesos y red reales, no una simulación en memoria — antes de reutilizarse sin modificar su lógica interna dentro del prototipo embebido en Besu (repositorio separado).
+Este motor se verificó como librería independiente — con procesos y red reales, no una simulación en memoria — antes de reutilizarse sin modificar su lógica interna dentro del prototipo embebido en Besu: [besu-raft-module](https://github.com/Chali1302/besu-raft-module).
 
 ## Qué incluye
 
